@@ -1,0 +1,15 @@
+# Groq CLI Requirements
+# Core AI and LangChain dependencies
+langchain-groq>=0.1.0
+langchain>=0.1.0
+pydantic>=2.0.0
+
+# UI and CLI dependencies
+rich>=13.0.0
+click>=8.0.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Optional: For better error handling and async support
+tenacity>=8.0.0
